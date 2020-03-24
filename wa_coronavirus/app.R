@@ -12,7 +12,7 @@ library(ggplot2)
 library(data.table) 
 
 # Format your data 
-max_date = "2020-03-22" # Set to the last updated date 
+max_date = "2020-03-23" # Set to the last updated date 
 
 dt = fread("clean_data.csv")
 dt = dt[, .(date, total_cases, total_deaths, total_tests_to_date)]
