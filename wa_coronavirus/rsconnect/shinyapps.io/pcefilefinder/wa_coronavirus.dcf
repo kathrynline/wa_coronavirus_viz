@@ -1,0 +1,10 @@
+name: wa_coronavirus
+title:
+username:
+account: pcefilefinder
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1982893
+bundleId: 2914173
+url: https://pcefilefinder.shinyapps.io/wa_coronavirus/
+when: 1584988358.08044
