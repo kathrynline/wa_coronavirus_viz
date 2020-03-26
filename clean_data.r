@@ -7,7 +7,7 @@ library(data.table)
 library(lubridate)
 
 # Read in most recent data (saved in repository) 
-repo_dir = "C:/Users/eklin/OneDrive/Documents/GitHub/wa_coronavirus_viz/"
+repo_dir = "C:/Users/elineb/Documents/wa_coronavirus_viz/"
 dt = fread(paste0(repo_dir, "COVID-19.csv"))
 
 #---------------------------
@@ -38,4 +38,4 @@ dt[, date:=as.Date(date, fmt="%Y-%m-%d")]
 #------------------------
 # Save data 
 #------------------------
-write.csv(dt, paste0(repo_dir, "clean_data.csv"), row.names=F)
+write.csv(dt, paste0(repo_dir, "wa_coronavirus/clean_data.csv"), row.names=F)

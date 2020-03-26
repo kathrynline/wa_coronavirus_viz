@@ -12,7 +12,7 @@ library(ggplot2)
 library(data.table) 
 
 # Format your data 
-max_date = "2020-03-23" # Set to the last updated date 
+max_date = "2020-03-25" # Set to the last updated date 
 
 dt = fread("clean_data.csv")
 dt = dt[date<=max_date] # Remove data after last day of reporting 
